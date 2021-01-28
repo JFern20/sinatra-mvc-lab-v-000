@@ -13,7 +13,7 @@ class PigLatinizer
     word.concat('way')
   else 
     word.concat(word.slice!(/^[^aeiouAEIOU]*/i || "")) + 'ay')
- end 
+   end 
   end 
   
   #if the word starts with a vowel add yay to the end
